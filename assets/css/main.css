@@ -1,0 +1,311 @@
+html{
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}
+
+body{
+  background-color: #383838;
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+}
+
+#mainpage{
+  padding-top: 50px;
+  height: 750px;
+  width: 100%;
+}
+.namebox{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#name{
+  font-weight: bold;
+  font-size: 120px;
+  z-index: -1;
+}
+
+#nameperiod{
+  font-weight: bold;
+  font-size: 120px;
+  color: #FF8383;
+  z-index: -1;
+}
+
+.menu{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+
+
+#about{
+  position: relative;
+  right: 225px;
+  bottom: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+#projects{
+  color: white;
+  text-decoration: none;
+}
+
+#aboutperiod{
+  position: relative;
+  right: 225px;
+  bottom: 100px;
+  color: #FF8383;
+}
+
+#projectsperiod{
+  color: #FF8383;
+}
+
+#resume{
+  position: relative;
+  left: 225px;
+  bottom: 100px;
+}
+
+#resumeperiod{
+  position: relative;
+  left: 225px;
+  bottom: 100px;
+  color: #FF8383;
+  z-index: -1;
+}
+
+.lines{
+  display: flex;
+  justify-content: center;
+}
+
+#line1{
+  position: relative;
+  bottom: 475px;
+  right: 100px;
+  margin-bottom: -475px;
+  z-index: -1;
+}
+
+#line2{
+  position: relative;
+  bottom: 475px;
+  margin-bottom: -475px;
+  z-index: -1;
+}
+
+#line3{
+  position: relative;
+  bottom: 475px;
+  left: 100px;
+  margin-bottom: -475px;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+#aboutpage{
+  height: 800px;
+  width: 100%;
+}
+
+.aboutmenu{
+  height: 750px;
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.borderline1{
+  float: left;
+}
+
+#dillon{
+  margin: auto;
+}
+
+#abouttitle{
+  font-size: 50px;
+  margin: auto;
+  color: #FF8383;
+  z-index: -1;
+}
+
+
+.aboutbar{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#aboutbarhome{
+  margin-left: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+#aboutbarprojects{
+  margin-right: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.aboutinfo{
+  height: 750px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#hello{
+  margin:auto;
+  color: #FF8383;
+  font-size: 50px;
+}
+
+#background1{
+  margin:auto;
+  text-align: left;
+}
+
+#world{
+  margin:auto;
+
+}
+
+#background2{
+  margin:auto;
+  text-align: left;
+}
+
+#midline1{
+  position: relative;
+  left: 100%;
+}
+
+#projectspage{
+  height: 800px;
+  width: 100%;
+}
+
+.projectsmenu{
+  height: 750px;
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.borderline2{
+  float: left;
+}
+
+#coding{
+  margin: auto;
+}
+
+#projectstitle{
+  font-size: 50px;
+  margin: auto;
+  color: #FF8383;
+  z-index: -1;
+}
+
+.projectsbar{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#projectsbarabout{
+  margin-right: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+#projectsbarhome{
+  margin-left: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.projectsinfo{
+  height: 750px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.enigma{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 375px;
+}
+
+#enigmaphoto{
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#enigmainfo{
+  margin-left: 50px;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.amazons{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  height: 375px;
+}
+
+#amazonsphoto{
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#amazonsinfo{
+  margin-left: 50px;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#aboutbarprojects:hover{
+  color: #FF8383;
+}
+#aboutbarhome:hover{
+  color: #FF8383;
+}
+#projectsbarabout:hover{
+  color: #FF8383;
+}
+#projectsbarhome:hover{
+  color: #FF8383;
+}
+#about:hover{
+  color: #FF8383;
+}
+
+#projects:hover{
+  color: #FF8383;
+}
+
+#resume:hover{
+  color: #FF8383;
